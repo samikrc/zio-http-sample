@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 RUN apt-get install -y openjdk-11-jdk
 ENV JAVA_HOME=/etc/alternatives/jre
 
